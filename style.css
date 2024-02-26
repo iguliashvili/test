@@ -1,0 +1,214 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+header {
+    padding-bottom: 1rem;
+}
+
+.artweb-header {
+    background-color: bisque;
+}
+
+
+.section-two {
+    background-color: bisque;
+}
+
+
+footer {
+    background-color: bisque;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+nav ul {
+    padding: 0;
+    margin-top: 1rem;
+}
+
+li {
+    font-size: 1.4rem;
+    cursor: pointer;
+    list-style: none;
+}
+
+li:hover {
+    color: #14A44D;
+    transition: 0.2s;
+}
+
+.d-flex {
+    gap: 100px;
+}
+
+p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+section {
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+
+.no-coding-icon, .mobile-friendly-icon, .unique-icon {
+    color: white;
+    margin-right: 10px;
+    font-size: 2.4rem;
+}
+
+.no-coding-icon-two, .mobile-friendly-icon-two, .unique-icon-two {
+    color: bisque;
+    margin-right: 10px;
+    font-size: 2.4rem;
+}
+
+.btn-artweb {
+    background-color: bisque;
+}
+
+.btn-artweb:hover {
+    background-color: rgba(255, 228, 196, 0.825);
+    transition: 0.2s;
+}
+
+.artweb-menu {
+    font-size: 2.4rem;
+    color: #14A44D;
+    cursor: pointer;
+    display: none;
+}
+
+.google-map iframe {
+    width: 95%;
+    height: 30rem;
+}
+
+.google-map {
+    margin-top: 2rem;
+}
+
+.section-testimonials {
+    background-color: bisque;
+}
+
+.user-reviews {
+    display: flex;
+    gap: 10px;
+}
+
+.user-reviews img {
+    width: 16%;
+    border-radius: 100%;;
+}
+
+.user-reviews h6 {
+    display: inline-block;
+}
+
+.user-reviews div {
+    border-right: #14A44D solid 2px;
+    padding-right: 5px;
+    width: 23%;
+}
+
+.user-reviews div:last-child {
+    border-right: none;
+    padding-right: 0px;
+}
+
+
+.contact-form {
+    padding-bottom: 0px;
+}
+
+.contact-form button {
+    margin-top: 10px;
+    background-color: #14A44D;
+}
+
+@media only screen and (max-width: 992px) {
+
+    .artweb-header header    {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        gap: 1px;
+        padding-top: 5px;
+    }
+
+    .artweb-header img {
+        width: 25%;
+        height: 25%;
+    }
+
+    .artweb-menu {
+        display: block;
+    }
+
+   nav {
+    display: none;
+   }
+
+    .section-one, .section-two-respo  {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-three-respo {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .section-three-respo div {
+        width: 100%;
+    }
+
+
+    .footer-respo {
+        display: block !important;
+        text-align: center;
+    }
+
+    .footer-respo img {
+        width: 60%;
+        height: 60%;
+    }
+
+    .footer-respo ul {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        justify-content: center;
+        text-align: center  ;
+        /* flex-direction: column; */
+    }
+
+    .footer-respo li {
+        font-size: 1.2rem
+    }
+
+    .user-reviews {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .user-reviews div {
+        width: 100% !important;
+        border-right: none !important;
+        border-bottom: #14A44D 2px solid;
+        padding-bottom: 8px;
+    }
+
+    .user-reviews div:last-child {
+        border-bottom: none;
+    }
+
+    .user-reviews img {
+        width: 10% !important;
+    }
+}   
